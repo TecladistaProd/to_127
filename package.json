@@ -1,6 +1,6 @@
 {
   "name": "to_127",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Proxying an online website to localhost",
   "main": "app.js",
   "bin": {
