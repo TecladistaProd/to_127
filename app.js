@@ -3,7 +3,7 @@ const proxy = require("http-proxy-middleware");
 
 module.exports = () => {
   const args = require("minimist")(process.argv.slice(2));
-  console.log(args);
+
   if (args.help || args.h) {
     return console.log(
       [
